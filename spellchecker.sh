@@ -4,7 +4,7 @@ read "?Enter Docs id" docId
 
 mkdir -p /tmp/$docId
 
-/tmp/$docId
+cd /tmp/$docId
 
 filename=`gdrive info $docId | grep "Name: " | cut -d' ' -f2-`
 
