@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-read -p "?Enter Docs id" docId
+read "?Enter Docs id" docId
 
 mkdir /tmp/$docId
 
