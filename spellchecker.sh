@@ -2,7 +2,7 @@
 
 read "?Enter Docs id" docId
 
-mkdir /tmp/$docId
+mkdir -p /tmp/$docId
 
 /tmp/$docId
 
